@@ -8,5 +8,5 @@ export default (content) => {
   const squaresAS = words.map(word => word.at(3))
   const squares = squaresAS.map((item) => parseInt(item.split(' ').join('')));
   const square = Math.max(...squares);
-  console.log(`Наибольшая площадь: ${square} кв.км`)
+  console.log(`Наибольшая площадь: ${square} кв.км.`)
 }
