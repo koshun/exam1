@@ -7,7 +7,9 @@ export default (content) => {
   const squaresAS = words.map(word => word.at(3))
   const squares = squaresAS.map((item) => parseInt(item.split(' ').join('')));
   
-  //console.log(squares);
+  console.log(squares);
   const square = Math.max(...squares);
   console.log(`Наибольшая площадь: ${square} кв.км `)
+  const peoples = 
+  console.log();
 }
